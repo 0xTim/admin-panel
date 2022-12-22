@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/nodes-vapor/submissions.git", from: "2.0.0"),
         .package(url: "https://github.com/nodes-vapor/sugar.git", from: "4.0.0"),
 
-        .package(url: "https://github.com/0xTim/Mailgun.git", .branchItem("vapor3")),
+        .package(url: "https://github.com/0xTim/Mailgun.git", .branchItem("vapor-3-logging")),
 
         .package(url: "https://github.com/vapor/auth.git", from: "2.0.0"),
         .package(url: "https://github.com/vapor/fluent-mysql.git", from: "3.0.0"),
